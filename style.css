@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(115, 115, 255);
+}
+
+.container {
+    background-color: rgb(115, 115, 255);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#myBtn {
+    height: 250px;
+   width: 250px;
+}
+
+.square {
+    background-color: yellow;
+    height: 250px;
+   width: 250px;
+}
+
+.circle1 {
+background-color: white;
+height: 250px;
+width: 250px;
+border-radius: 50%;
+margin-right:50px;
+animation-name: example;
+animation-duration: 4s;
+animation-timing-function: ease;
+}
+
+@keyframes example {
+    from {
+        transform: translateY(0) scale(1)
+    }
+  to {
+     transform: translateY(1000px) scale(4)
+    }
+}
+
+
+
+.circle2 {
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    }
+.circle3 {
+        background-color: white;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        margin-left:50px;
+        }
+header {
+    font-family: 'Bahianita', cursive;
+    text-align: right;
+    font-size:100px
+}
